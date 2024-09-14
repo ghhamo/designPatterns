@@ -1,7 +1,7 @@
 package job;
 
 public class Singleton {
-    private static Singleton s;
+    private static volatile Singleton s;
 
     private Singleton() {
     }
