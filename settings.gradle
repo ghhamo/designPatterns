@@ -5,4 +5,5 @@ plugins {
 rootProject.name = 'designPatterns'
 include 'singleton'
 include 'factoryMethod'
+include 'observer'
 
