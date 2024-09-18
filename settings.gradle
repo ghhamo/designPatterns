@@ -8,4 +8,5 @@ include 'factoryMethod'
 include 'observer'
 include 'adapter'
 include 'builder'
+include 'proxy'
 

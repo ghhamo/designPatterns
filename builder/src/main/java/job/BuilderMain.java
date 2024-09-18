@@ -24,7 +24,7 @@ public class BuilderMain {
                 .build();
 
         Collection<Integer> collection1 = immutable.getCollection();
-        for (int i = 0; i < immutable.getCollection().size(); i++) {
+        for (int i = 0; i < immutable.getCollection().getLength(); i++) {
             Integer cur = collection1.get(i);
             System.out.println(cur);
         }

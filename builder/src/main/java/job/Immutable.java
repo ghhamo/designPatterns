@@ -6,9 +6,9 @@ public class Immutable {
     private final int k;
     private final int r;
     private final double w;
-    private final ArrayList<Integer> integers;
+    private final Collection<Integer> integers;
 
-    public Immutable(int w, int k, int r, ArrayList<Integer> integers) {
+    public Immutable(int w, int k, int r, Collection<Integer> integers) {
         this.k = k;
         this.r = r;
         this.w = w;
@@ -28,6 +28,6 @@ public class Immutable {
     }
 
     public Collection<Integer> getCollection() {
-        return (Collection<Integer>) integers;
+        return integers;
     }
 }
